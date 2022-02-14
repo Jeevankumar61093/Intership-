@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <Title>SignUp Form</Title>
+    <link rel="stylesheet" href="Form.css">
+    <style>
+        /* This is using Id selector */
+        #h2Title {
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+
+    </div>
+    <h2 id="h2Title" style="color :blueviolet">SignUp Form</h2>
+    <form>
+        <!-- Input is a self closing tag... -->
+        <div>
+            <label class="mandatory_fields" name="lblemail" for="inputEmail">Email Address</label>
+            <input type="email" name="inputEmail">
+        </div>
+        <div>
+            <label name="lblname" for="inputName">Name</label>
+            <input type="text" name="inputName">
+        </div>
+        <div>
+            <label name="lblUsername" for="inputUserName">UserName</label>
+            <input type="text" name="inputUserName">
+        </div>
+        <div>
+            <label name="lblPassword" for="inputPassword">Password</label>
+            <input type="password" name="inputPassword">
+        </div>
+        <div>
+            <label name="lblDOB0" for="inputDOB">Date of Birth</label>
+            <input type="date" name="inputDOB">
+        </div>
+        <div>
+            <label name="lblPhone" for="inputPhone">Phone</label>
+            <input type="number" name="inputPhone">
+        </div>
+        <div>
+            <label name="lblAddress" for="txtAddress">Address</label>
+            <textarea name="txtAddress" id="txtAddress" cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="inputGender">Gender</label>
+            <input type="radio" name="inputGender"><label>Male</label>
+            <input type="radio" name="inputGender"><label>Female</label>
+        </div>
+        <div>
+            <label for="inputfile">Upload Resume</label>
+            <input type="file" name="inputfile">
+        </div>
+        <div>
+            <label for="ddlCountryt">Country</label>
+            <select name="ddlCountry" id="ddlCountry">
+                <option value="0">Select</option>
+                <option value="1">India</option>
+                <option value="2">UK</option>
+                <option value="3">Japan</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="inputterms">
+            <label for="iputterms">Terms and conditions</label>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+
+
+</html>

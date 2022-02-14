@@ -1,0 +1,24 @@
+/* This is using Id selector */
+#h2Title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+
+ /* Class selector  */
+ .mandatory_fields{
+     font-weight: bold;
+ }
+
+
+ /* Universal selector */
+ *{font-family: 'Courier New', Courier, monospace;
+
+ }
+
+ .header{
+     height: 200px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url("https://cdn.dribbble.com/users/108186/screenshots/2990366/forest.jpg?compress=1&resize=400x300");
+ }
