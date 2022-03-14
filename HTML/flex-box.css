@@ -1,0 +1,19 @@
+
+.parent{
+    margin: 2%;
+    padding: 4%;
+    border: 1px dashed green;
+
+    /* Create a flexible container which makes all items flexible */
+    display: flex;
+    
+}
+
+
+.child{
+    background-color: aquamarine;
+    margin: 2%;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}

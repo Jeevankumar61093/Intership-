@@ -2,36 +2,44 @@
 
 <head>
     <Title>SignUp Form</Title>
-    <link rel="stylesheet" href="Form.css">
+    <link rel="stylesheet" href="Forms.css">
     <style>
-        /* This is using Id selector */
-        #h2Title {
-            font-size: 50px;
-        }
+        /* This is using ID selector */
+        /* #h2Title {
+    font-size: 40px;
+    } */
     </style>
+
 </head>
 
 <body>
     <div class="header">
 
     </div>
-    <h2 id="h2Title" style="color :blueviolet">SignUp Form</h2>
-    <form>
+
+    <h2 class="title">SignUp Form</h2>
+    <form class="container">
         <!-- Input is a self closing tag... -->
-        <div>
+        <div style="display: block;">
             <label class="mandatory_fields" name="lblemail" for="inputEmail">Email Address</label>
-            <input type="email" name="inputEmail">
+            <input type="email" name="inputEmail" style=" 
+            display: inline-block; 
+            height: 200px;
+            width:400px;
+            ">
         </div>
-        <div>
+        <div style="display: block;
+                    
+        ">
             <label name="lblname" for="inputName">Name</label>
             <input type="text" name="inputName">
         </div>
-        <div>
-            <label name="lblUsername" for="inputUserName">UserName</label>
+        <div style="display: inline;">
+            <label class="mandatory_fields" name="lblUserName" for="inputUserName">UserName</label>
             <input type="text" name="inputUserName">
         </div>
-        <div>
-            <label name="lblPassword" for="inputPassword">Password</label>
+        <div style="display: inline-block">
+            <label class="mandatory_fields" name="lblPassword" for="inputPassword">Password</label>
             <input type="password" name="inputPassword">
         </div>
         <div>

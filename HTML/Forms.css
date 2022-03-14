@@ -1,0 +1,47 @@
+/* Using ID(#) selectors in external css */
+/* #h2Title {
+         font-size: 50px;
+         font-family:'Courier New', Courier, monospace;
+         color:darkblue;
+} */
+
+/* Universal(*) selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Using class(.) selector */
+.mandatory_fields{
+    font-weight: bold;
+}
+
+.container{
+    background-color:darkturquoise;
+}
+
+.header{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/586/244/small/abstract-banner-design-web-templates-horizontal-header-web-banner-modern-abstract-cover-header-background-for-website-design-social-media-cover-advertising-banner-flyer-invitation-card-free-vector.jpg");
+}
+
+.title {
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    color:darkblue;
+    
+    background-color: gainsboro;
+    border: 1px groove black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    margin-left: 0px;
+            /* Top right bottom left */
+    margin:   10px 25px 20px 10px;
+    padding:  5px 10px 5px 30px;
+
+         /* TopBottom Rightleft */
+    margin: 20px 10px;
+    padding: 20px 10px;      
+}
