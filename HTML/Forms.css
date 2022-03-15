@@ -45,3 +45,36 @@
     margin: 20px 10px;
     padding: 20px 10px;      
 }
+/* Apply this query as long as max-width is 600px */
+/* For Mobile */
+@media screen and (max-width:600px){
+
+.title{
+    background-color:cornsilk;
+    font-size: 40px;
+}
+.container{
+    background-color:chartreuse;
+    font-size: 20px;
+}
+.header{
+    background-image: url("https://cdn.xxl.thumbs.canstockphoto.com/futuristic-html-background-with-robot-head-hologram-coding-programming-and-technology-concept-3d-stock-photography_csp86823108.jpg");
+}
+}
+
+/* Apply this query when width is from 601px to 1000px */
+/* For Tablets */
+@media screen and (min-width:601px) and (max-width:1000px){
+    .title{
+        background-color:rgb(255, 220, 249);
+        font-size: 40px;
+    }
+    .container{
+        background-color:rgb(196, 189, 191);
+        font-size: 20px;
+    }
+    .header{
+        background-image: url("https://miro.medium.com/max/800/0*JUUIaKYvIBQq9p9y.jpg");
+    }
+    }  
+}
