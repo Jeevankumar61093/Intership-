@@ -1,5 +1,12 @@
+body{
+    margin: 25px;
+}
+
+
 
 .parent{
+    
+    position: relative;
     height: 80%;
     padding: 4%;
     border: 1px dashed green;
@@ -11,29 +18,32 @@
 
      /* Align felxible items vertically  */
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     background-color:coral;
-    
+    height: 3000px;
+
 }
 
 
 .child{
     display: flex;
     background-color: aquamarine;
-    margin: 2%;
     border: 1px solid black;
     height: 150px;
     width: 150px;
     justify-content: center;
     align-items: center;
-    
+    font-style: italic;
+
 }
 
-.hide{
-    /* To change the position of the element */
-    /* display: none; */
+.position{
+    /* Absolute position is fixed to the view port whether parent postion is static or non-static */
     
-    /* To completely hide the element  */
-    visibility: hidden;
+    position: fixed;
+    
+    /* left, top from original position of element */
+    top: 0px;
+    left: 0px;
 
 }

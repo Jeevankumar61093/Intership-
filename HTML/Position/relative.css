@@ -11,9 +11,9 @@
 
      /* Align felxible items vertically  */
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     background-color:coral;
-    
+
 }
 
 
@@ -26,14 +26,19 @@
     width: 150px;
     justify-content: center;
     align-items: center;
-    
+    font-style: italic;
+
 }
 
-.hide{
-    /* To change the position of the element */
-    /* display: none; */
+.position{
+    /* Relative position is relative to element itself */
+    /* Element remembers it's original positon  even after being
+    pulled out of default  flow of DOM */
     
-    /* To completely hide the element  */
-    visibility: hidden;
+    position: relative;
+    
+    /* left, top from original position of element */
+    top: 20px;
+    left: 70px;
 
 }

@@ -29,11 +29,12 @@
     
 }
 
-.hide{
-    /* To change the position of the element */
-    /* display: none; */
+.postion{
+    /* Static is default value of position of every element in html- means the positon the element won't change as it is defult positon  */
+
+    position: static;
     
-    /* To completely hide the element  */
-    visibility: hidden;
+    top: 20px;
+    left: 50px;
 
 }
